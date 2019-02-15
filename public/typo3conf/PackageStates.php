@@ -83,6 +83,9 @@ return [
         'extension_builder' => [
             'packagePath' => 'typo3conf/ext/extension_builder/',
         ],
+        'notifications' => [
+            'packagePath' => 'typo3conf/ext/notifications/',
+        ],
         'sitemanagement' => [
             'packagePath' => 'typo3conf/ext/sitemanagement/',
         ],

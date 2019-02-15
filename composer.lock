@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1790beea0b658735af0c6115b50c455b",
+    "content-hash": "9128454881bdf906fbb10e3614d8e207",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -1355,6 +1355,40 @@
             "homepage": "https://blitz-auto.de",
             "keywords": [
                 "TYPO3 CMS"
+            ]
+        },
+        {
+            "name": "hofuniversity/notifications",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "packages/notifications",
+                "reference": "5d74fd41e54d818e3e7a9d57a19bcbd603f842ff",
+                "shasum": null
+            },
+            "require": {
+                "typo3/cms-core": "^9.5"
+            },
+            "replace": {
+                "notifications": "self.version",
+                "typo3-ter/notifications": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "HofUniversity\\Notifications\\": "Classes"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "HofUniversity\\Notifications\\Tests\\": "Tests"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Deepak Balaram",
+                    "role": "Developer"
+                }
             ]
         },
         {
